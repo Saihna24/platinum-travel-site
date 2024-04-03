@@ -18,9 +18,14 @@
         margin-bottom: 0.6rem;
         margin-bottom: 0;
         @mixin atSmall{
+            position: relative;
+            top: 10px;
              margin-right: 1.5rem; 
              margin-left: auto;
              display: inline-block;
         }
+    }
+    &--blue{
+        color: $main-blue;
     }
 }
